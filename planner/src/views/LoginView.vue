@@ -6,6 +6,9 @@
 
             <v-col cols="12" md="6" sm="12" class="primary py-5">
                 <v-container class="fotm-container">
+
+                        
+                    
                     <v-form v-model="valid"  >
                         <v-row>
                             <v-col
@@ -127,7 +130,7 @@
 
     .fotm-container{
         max-width: 500px;
-        min-height: calc(100vh - 116px);
+        min-height: calc(100vh - 104px);
         display: flex;
         align-items: center;
         .login-title{
